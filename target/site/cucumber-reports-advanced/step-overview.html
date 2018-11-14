@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Cucumber-JVM Html Reports - Step Overview</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<script type="text/javascript" src="jquery.min.js"></script>
+<script type="text/javascript" src="jquery.tablesorter.min.js"></script>
+<script type="text/javascript" src="bootstrap.min.js"></script>
+
+<script type="text/javascript" src="highcharts.js"></script>
+<script type="text/javascript" src="highcharts-3d.js"></script>
+
+<link rel="stylesheet" href="bootstrap.min.css" type="text/css"/>
+
+<link rel="stylesheet" href="reporting.css" type="text/css"/>
+
+<script type="text/javascript">
+$(document).ready(function() {
+    $("#tablesorter").tablesorter();
+});
+</script>
+
+
+
+</head>
+<body>
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navigation">
+  <div class="container-fluid">
+    <div class="collapse navbar-collapse">
+      <p class="navbar-text navbar-left">Cucumber-jvm Report</p>
+      <ul class="nav navbar-nav navbar-right">
+                <li role="presentation" ><a href="feature-overview.html">Features</a></li>
+        <li role="presentation" ><a href="tag-overview.html">Tags</a></li>
+        <li role="presentation"     class="active" ><a href="step-overview.html">Steps</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container-fluid" id="summary">
+  <div class="row">
+    <div class="col-md-6">
+      <table class="table table-bordered">
+        <thead>
+          <tr>
+            <th>Project</th>
+                          <th>Number</th>
+                        <th>Date</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="info">
+            <td>Oms-Automation-Framework_M1046847</td>
+                          <td>1.8.0</td>
+                        <td>20 Sep 2018, 11:43</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid" id="title">
+  <h2>Step Statistics</h2>
+      <p>The following graph shows step statistics for this build. Below list is based on results.
+ step does not provide information about result then is not listed below.
+ Additionally @Before and @After are not counted because they are part of the scenarios, not steps.</p>
+  </div>
+
+<div class="container-fluid" id="report-details">
+  <table id="tablesorter" class="stats-table">
+
+    <thead>
+      <tr class="header">
+        <th id="stats-header-feature">Implementation</th>
+        <th id="stats-header-occurrences">Occurrences</th>
+        <th id="stats-header-duration">Duration</th>
+        <th id="stats-header-average">Average</th>
+        <th id="stats-header-status">Ratio</th>
+      </tr>
+    </thead>
+
+    <tbody>
+              <tr>
+                    
+          <td class="tagname">Add_Track_by_Admin.admin_enters_Tarck_details_and_and(String,String,String)</td>
+          <td>1</td>
+          <td class="duration-format">24s 756ms</td>
+          <td class="duration-format">24s 756ms</td>
+          <td class="passed">100.0%</td>
+        </tr>
+              <tr>
+                    
+          <td class="tagname">Add_Batch_oms_by_admin.admin_cick_on_batch_button_from_side_bar()</td>
+          <td>2</td>
+          <td class="duration-format">20s 565ms</td>
+          <td class="duration-format">10s 282ms</td>
+          <td class="passed">100.0%</td>
+        </tr>
+              <tr>
+                    
+          <td class="tagname">Add_Track_by_Admin.admin_click_on_Track()</td>
+          <td>1</td>
+          <td class="duration-format">17s 070ms</td>
+          <td class="duration-format">17s 070ms</td>
+          <td class="passed">100.0%</td>
+        </tr>
+              <tr>
+                    
+          <td class="tagname">Oms_rwd_for_webpage_by_admin.admin_can_open_OMS_webpage_for_checking_RWD()</td>
+          <td>2</td>
+          <td class="duration-format">15s 579ms</td>
+          <td class="duration-format">07s 789ms</td>
+          <td class="passed">100.0%</td>
+        </tr>
+              <tr>
+                    
+          <td class="tagname">Add_capability_by_admin.lead_click_on_add_button()</td>
+          <td>1</td>
+          <td class="duration-format">14s 721ms</td>
+          <td class="duration-format">14s 721ms</td>
+          <td class="passed">100.0%</td>
+        </tr>
+              <tr>
+                    
+          <td class="tagname">Add_capability_by_admin.leads_open_oms_homepage_for_adding_capability()</td>
+          <td>1</td>
+          <td class="duration-format">12s 744ms</td>
+          <td class="duration-format">12s 744ms</td>
+          <td class="passed">100.0%</td>
+        </tr>
+              <tr>
+                    
+          <td class="tagname">Add_capability_by_admin.lead_click_on_capability()</td>
+          <td>1</td>
+          <td class="duration-format">11s 568ms</td>
+          <td class="duration-format">11s 568ms</td>
+          <td class="passed">100.0%</td>
+        </tr>
+              <tr>
+                    
+          <td class="tagname">Add_capability_by_admin.lead_click_on_manage()</td>
+          <td>1</td>
+          <td class="duration-format">10s 723ms</td>
+          <td class="duration-format">10s 723ms</td>
+          <td class="passed">100.0%</td>
+        </tr>
+              <tr>
+                    
+          <td class="tagname">oms_homepage_cucumber_test.after_login_to_oms_campus_mind_check_for_capability_batch_and_track()</td>
+          <td>1</td>
+          <td class="duration-format">10s 668ms</td>
+          <td class="duration-format">10s 668ms</td>
+          <td class="passed">100.0%</td>
+        </tr>
+              <tr>
+                    
+          <td class="tagname">Assginment_for_campusmind_by_admin.admin_open_OMS_webpage_for_assginment()</td>
+          <td>1</td>
+          <td class="duration-format">10s 324ms</td>
+          <td class="duration-format">10s 324ms</td>
+          <td class="passed">100.0%</td>
+        </tr>
+              <tr>
+                    
+          <td class="tagname">Add_capability_by_admin.lead_can_click_on_add_button()</td>
+          <td>1</td>
+          <td class="duration-format">10s 253ms</td>
+          <td class="duration-format">10s 253ms</td>
+          <td class="passed">100.0%</td>
+        </tr>
+              <tr>
+                    
+          <td class="tagname">Add_capability_by_admin.user_enters_and(String,String)</td>
+          <td>1</td>
+          <td class="duration-format">09s 596ms</td>
+          <td class="duration-format">09s 596ms</td>
+          <td class="passed">100.0%</td>
+        </tr>
+              <tr>
+                    
+          <td class="tagname">oms_homepage_cucumber_test.campus_mind_login_to_oms_webpage()</td>
+          <td>1</td>
+          <td class="duration-format">09s 558ms</td>
+          <td class="duration-format">09s 558ms</td>
+          <td class="passed">100.0%</td>
+        </tr>
+              <tr>
+                    
+          <td class="tagname">oms_homepage_cucumber_test.campus_mind_check_for_titile_for_oms_webpage()</td>
+          <td>1</td>
+          <td class="duration-format">09s 228ms</td>
+          <td class="duration-format">09s 228ms</td>
+          <td class="passed">100.0%</td>
+        </tr>
+              <tr>
+                    
+          <td class="tagname">Oms_button_sidebar_checking_by_admin.admin_can_open_OMS_webpage_for_checking_button()</td>
+          <td>1</td>
+          <td class="duration-format">08s 981ms</td>
+          <td class="duration-format">08s 981ms</td>
+          <td class="passed">100.0%</td>
+        </tr>
+              <tr>
+                    
+          <td class="tagname">Oms_rwd_for_webpage_by_admin.admin_pass_the_value_of_and_for_rwd_for_oms(int,int)</td>
+          <td>2</td>
+          <td class="duration-format">08s 932ms</td>
+          <td class="duration-format">04s 466ms</td>
+          <td class="passed">100.0%</td>
+        </tr>
+              <tr>
+                    
+          <td class="tagname">Admin_add_users_to_oms.admin_open_OMS_webpage_for_adding_users_to_OMS()</td>
+          <td>1</td>
+          <td class="duration-format">08s 912ms</td>
+          <td class="duration-format">08s 912ms</td>
+          <td class="passed">100.0%</td>
+        </tr>
+              <tr>
+                    
+          <td class="tagname">Add_Track_by_Admin.admin_cick_on_Track_button_from_side_bar()</td>
+          <td>1</td>
+          <td class="duration-format">08s 572ms</td>
+          <td class="duration-format">08s 572ms</td>
+          <td class="passed">100.0%</td>
+        </tr>
+              <tr>
+                    
+          <td class="tagname">oms_homepage_cucumber_test.campus_mind_open_oms_home_page()</td>
+          <td>1</td>
+          <td class="duration-format">08s 483ms</td>
+          <td class="duration-format">08s 483ms</td>
+          <td class="passed">100.0%</td>
+        </tr>
+              <tr>
+                    
+          <td class="tagname">oms_homepage_cucumber_test.campus_mind_validate_the_title_of_oms()</td>
+          <td>1</td>
+          <td class="duration-format">08s 414ms</td>
+          <td class="duration-format">08s 414ms</td>
+          <td class="passed">100.0%</td>
+        </tr>
+              <tr>
+                    
+          <td class="tagname">Assginment_for_campusmind_by_admin.admin_click_on_home_button_and_add_button_and_track()</td>
+          <td>1</td>
+          <td class="duration-format">03s 403ms</td>
+          <td class="duration-format">03s 403ms</td>
+          <td class="passed">100.0%</td>
+        </tr>
+              <tr>
+                    
+          <td class="tagname">Add_Batch_oms_by_admin.admin_can_click_on_add_button()</td>
+          <td>2</td>
+          <td class="duration-format">02s 316ms</td>
+          <td class="duration-format">01s 158ms</td>
+          <td class="passed">100.0%</td>
+        </tr>
+              <tr>
+                    
+          <td class="tagname">Assginment_for_campusmind_by_admin.admin_click_on_assginment_button()</td>
+          <td>1</td>
+          <td class="duration-format">02s 207ms</td>
+          <td class="duration-format">02s 207ms</td>
+          <td class="passed">100.0%</td>
+        </tr>
+              <tr>
+                    
+          <td class="tagname">Add_Batch_oms_by_admin.admin_enters_and_and(String,String,String)</td>
+          <td>2</td>
+          <td class="duration-format">02s 053ms</td>
+          <td class="duration-format">01s 026ms</td>
+          <td class="passed">100.0%</td>
+        </tr>
+              <tr>
+                    
+          <td class="tagname">Oms_rwd_for_webpage_by_admin.admin_can_close_the_browser_for_oms()</td>
+          <td>2</td>
+          <td class="duration-format">01s 638ms</td>
+          <td class="duration-format">819ms</td>
+          <td class="passed">100.0%</td>
+        </tr>
+              <tr>
+                    
+          <td class="tagname">Admin_add_users_to_oms.admin_click_on_user_button()</td>
+          <td>1</td>
+          <td class="duration-format">01s 108ms</td>
+          <td class="duration-format">01s 108ms</td>
+          <td class="passed">100.0%</td>
+        </tr>
+              <tr>
+                    
+          <td class="tagname">Oms_button_sidebar_checking_by_admin.admin_can_check_users_button_is_present_or_not()</td>
+          <td>1</td>
+          <td class="duration-format">929ms</td>
+          <td class="duration-format">929ms</td>
+          <td class="passed">100.0%</td>
+        </tr>
+              <tr>
+                    
+          <td class="tagname">Add_Batch_oms_by_admin.admin_click_on_batch()</td>
+          <td>2</td>
+          <td class="duration-format">668ms</td>
+          <td class="duration-format">334ms</td>
+          <td class="passed">100.0%</td>
+        </tr>
+              <tr>
+                    
+          <td class="tagname">Oms_button_sidebar_checking_by_admin.admin_can_check_Batch_button_is_present_or_not()</td>
+          <td>1</td>
+          <td class="duration-format">237ms</td>
+          <td class="duration-format">237ms</td>
+          <td class="passed">100.0%</td>
+        </tr>
+              <tr>
+                    
+          <td class="tagname">Oms_button_sidebar_checking_by_admin.admin_can_check_groups_button_is_present_or_not()</td>
+          <td>1</td>
+          <td class="duration-format">161ms</td>
+          <td class="duration-format">161ms</td>
+          <td class="passed">100.0%</td>
+        </tr>
+              <tr>
+                    
+          <td class="tagname">Oms_button_sidebar_checking_by_admin.admin_can_check_Track_button_is_present_or_not()</td>
+          <td>1</td>
+          <td class="duration-format">115ms</td>
+          <td class="duration-format">115ms</td>
+          <td class="passed">100.0%</td>
+        </tr>
+              <tr>
+                    
+          <td class="tagname">Oms_button_sidebar_checking_by_admin.admin_can_check_Assginment_button_is_present_or_not()</td>
+          <td>1</td>
+          <td class="duration-format">113ms</td>
+          <td class="duration-format">113ms</td>
+          <td class="passed">100.0%</td>
+        </tr>
+              <tr>
+                    
+          <td class="tagname">Add_Batch_oms_by_admin.admin_got_message_Batch_added_successfully_to_OMS()</td>
+          <td>2</td>
+          <td class="duration-format">000ms</td>
+          <td class="duration-format">000ms</td>
+          <td class="passed">100.0%</td>
+        </tr>
+              <tr>
+                    
+          <td class="tagname">Add_capability_by_admin.oms_failed_test_screenshot(Scenario)</td>
+          <td>1</td>
+          <td class="duration-format">000ms</td>
+          <td class="duration-format">000ms</td>
+          <td class="passed">100.0%</td>
+        </tr>
+              <tr>
+                    
+          <td class="tagname">Add_Track_by_Admin.admin_can_click_on_add_button_for_Track()</td>
+          <td>1</td>
+          <td class="duration-format">000ms</td>
+          <td class="duration-format">000ms</td>
+          <td class="passed">100.0%</td>
+        </tr>
+              <tr>
+                    
+          <td class="tagname">Add_Track_by_Admin.admin_got_message_Track_added_successfully_to_OMS()</td>
+          <td>1</td>
+          <td class="duration-format">000ms</td>
+          <td class="duration-format">000ms</td>
+          <td class="passed">100.0%</td>
+        </tr>
+              <tr>
+                    
+          <td class="tagname">oms_homepage_cucumber_test.campus_mind_close_the_browser()</td>
+          <td>1</td>
+          <td class="duration-format">000ms</td>
+          <td class="duration-format">000ms</td>
+          <td class="passed">100.0%</td>
+        </tr>
+              <tr>
+                    
+          <td class="tagname">Admin_add_users_to_oms.admin_got_proper_message_for_click_button_for_oms()</td>
+          <td>1</td>
+          <td class="duration-format">000ms</td>
+          <td class="duration-format">000ms</td>
+          <td class="passed">100.0%</td>
+        </tr>
+          </tbody>
+
+    <tfoot>
+      <tr>
+        <td>38</td>
+        <td>46</td>
+        <td class="duration-format">4m 14s 610ms</td>
+        <td class="duration-format">05s 535ms</td>
+        <td>Totals</td>
+      </tr>
+    </tfoot>
+  </table>
+</div>
+
+
+<nav class="navbar navbar-default" id="footer">
+  <div class="container-fluid">
+    <p class="navbar-text navbar-right">
+      <a class="navbar-link" href="https://github.com/jenkinsci/cucumber-reports-plugin">Jenkins Plugin</a> |
+      <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-reporting">Cucumber-JVM Reports</a>
+    </p>
+  </div>
+</nav>
+
+</body>
+</html>
